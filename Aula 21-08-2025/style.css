@@ -1,0 +1,53 @@
+/* Seletor de elementos */
+p{
+    color: white;
+}
+
+h1{
+    color: darkred;
+}
+
+ul{
+    color: darkred;
+}
+
+h2{
+    color: darkred;
+}
+
+/* Seletor de ID */
+
+#para1{
+    text-align: center;
+    color: whitesmoke;
+}
+
+/* Seletor de classe */
+
+.myclass{
+    border-style: ridge;
+}
+
+/* Junção de seletores */
+
+p.myclass{
+    font-size: x-large;
+}
+
+.newclass{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.class3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: inherit;
+    font-size: x-large;
+}
+
+.teste-cores{
+    padding: 2%;
+    background-color: rgba(180, 180, 180, 0.2);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+}
