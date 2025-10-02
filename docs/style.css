@@ -21,6 +21,16 @@ body {
   z-index: 1000;
 }
 
+.profile-photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+  border: 2px solid #ffffff33;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
 .container-menu {
   display: flex;
   justify-content: space-between;
@@ -83,3 +93,4 @@ footer {
   color: #fff;
   margin-top: 3rem;
 }
+
